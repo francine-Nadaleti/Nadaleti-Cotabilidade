@@ -1,0 +1,193 @@
+header {
+    background: #ffffff;    
+    display: inline-grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    padding: 10px;
+}
+
+.grid-60-40 {
+    display: inline-grid;
+    grid-template-columns: 60% 40%;
+}
+
+.imghead{
+    width: 55%;    
+}
+
+main{
+    background: #cccccc;
+}
+
+nav {
+    background: #ffffff;
+    margin-top: 20px;
+}
+
+nav li {
+    display: inline;
+    padding: 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #229bfd;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #0919f8;
+    text-decoration: underline;
+}
+
+#botao-status {
+    display: block;    
+    border-radius: 30px;
+    width: 60%;
+    height: 50%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30%;
+    margin-top: 5px;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.aberto {
+    background-color: rgb(49, 192, 20);
+}
+
+.fechado {
+    background-color: red;
+}
+
+#tabela {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+thead {
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
+
+td{ 
+    background: #FFFFFF;
+    font-size: 20px;
+    border: 1px solid #3a3939;
+    padding: 10px 20px;
+}    
+
+th {
+    background: #229bfd;
+    font-size: 20px;
+    border: 1px solid #3a3939;
+    padding: 10px 20px;
+}
+
+.texto-empresa{
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+#banner {
+    width: 35%;
+    display: block;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sobre-empresa {
+    width: 100%;
+    background: #cccccc;
+    margin-bottom: 5px;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+.itens{
+    background: #ffffff;
+    font-style: italic;
+    font-size: 35px;
+    padding-right: 500PX ;
+    padding: 20px;
+    font-weight:bold;
+}
+
+.beneficios {    
+    padding: 20px;
+    font-weight:bold;
+    color: #229bfd
+ }
+
+.beneficios-content {    
+    display: inline-grid;
+    grid-template-columns: 50% 50%;
+}
+
+.escritorioimg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;    
+} 
+
+h2{
+    text-align: center; 
+    font-size: 40px;
+    margin: 10px;
+    color: #178ef0;
+}
+
+h3 {
+    background: #ffffff;
+    font-size: 55px;
+    text-align: center; 
+    padding: 10px;
+}
+
+.google-map{
+    padding: 40px;
+    width: 100%;
+}
+
+.meios-contatos{
+    width: 100%;
+    padding: 40px;
+}
+.whats-logo{
+    width: 40px;
+}
+
+h4{
+    margin: 20px;
+    font-size: 30px;
+}
+
+.contatos{
+    margin: 20px;
+    font-size: 20px;
+}
+
+footer{
+    background: url(img/bg.jpg);
+    text-align: center;
+    padding: 40px;
+}
+
+.rodapeimg {
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.copyright {
+    font-size: 25;
+    color: #FFFFFF;
+}
